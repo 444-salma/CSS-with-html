@@ -20,9 +20,14 @@
         color: red;
        }
     </style> -->
+    <link href="style.css" rel="Stylesheet"/>
   </head>
-  <article>
+  
   <body>
+    <header>
+
+      
+    
     <!--code css in inline way to style h1 -->
     <!--<h1 style="color: blue;" >✨ Almdrasa ✨</h1>-->
     <h1>✨ Almdrasa ✨</h1>
@@ -42,7 +47,10 @@
       <a href="content.html" target="_blank">English</a>
       <a href="content_ar.html" target="_blank">العربية</a>
     </nav>
-    <p>Posted by <strong>Mohamed Abusrea</strong> on Saturday, July 2nd 2022</p>
+    </header>
+    <article>
+      <header>
+    <p id="auther" >Posted by <strong>Mohamed Abusrea</strong> on Saturday, July 2nd 2022</p>
     <image
       src="image/post-img.jpg"
       alt=" picture of almadrsa platform"
@@ -73,9 +81,9 @@
   <p>
     <strong>3. N</strong>o need to pay for each course. a low price yearly
     subscription will give you access to all courses
-  </p><strong>4. C</strong>ommunicate with the instructors easily</p>
-  <p><strong>5. G</strong>et badges after completion of every course to won prizes
-</p>
+   <p><strong>4. C</strong>ommunicate with the instructors easily</p>
+   <p><strong>5. G</strong>et badges after completion of every course to won prizes
+    </p>
 <p>You can learna more at <a href ="https://almdrasa.com/" target ="_blank"> Almdrasa website.</a>
 </p>
 
@@ -98,20 +106,23 @@
 <p>That's it for now. See you in the next one 👋!</p>
 </article>
 <aside>
-  <h5>Related posts</h5>
-  <ul>
-    <li><image src="image/related-1.jpg" alt="Related post 1" width="75" height="75"/> </li>
-  <a href="#">Get styling with CSS </a>
-  <p>By Mohamed Abusrea</p>
+  <p><h5>Related posts</h5></p>
+  <ul class="related"> <!--we use class to modify easly now and later 
+    (since we cam use the same class to apply the same style in other elements) -->
+    <li><image src="image/related-1.jpg" alt="Related post 1" width="75" height="75"/> 
+  <a href="#">Get styling with CSS </a> </li>
+  <p class ="Related-auther">By Mohamed Abusrea</p>
   <li>
     <image src="image/related-2.jpg" alt ="Related post 2" width="75" height="75"/>
   <a href ="#">Getting started with JavaScript</a>
-    <p>By Ahmed fathy</p>
+    <p class ="Related-auther">By Ahmed fathy</p>
   </li>
   </ul>
 </aside>
 <footer>
+  <p id="copyright">
   Copyright &copy; 2022 Almdrasa. 
+  </p>
 </footer>
 
 
