@@ -5,10 +5,16 @@ h4,
 p,
 li {
   font-family: sans-serif;
+  color: #444;
 }
 
+h1,
+h2,
+h3 {
+  color: #051e2e;
+}
 h1 {
-  font-size: 26px;
+  font-size: 40px;
   font-family: sans-serif;
   text-transform: uppercase;
   font-style: italic;
@@ -54,4 +60,63 @@ footer p {
 }
 .related {
   list-style-type: none;
+}
+
+.main-header {
+  background: #f7f7f7;
+}
+aside {
+  background: #f7f7f7;
+}
+/*li:first-child {
+  font-style: italic;
+  color: chocolate;
+}
+article p:last-child {
+  color: cadetblue;
+  font-weight: bold;
+}
+
+aside ul li:last-child {
+  color: tomato;
+  font-weight: bold;
+}
+/* styling links */
+/* a {
+    color:blue; using this way in styling links not the best way because it will apply to all links in the page
+     and we may want to style some with different stages.
+
+} */
+/* 
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(0, 128, 6);
+}
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+a:active {
+  background-color: burlywood;
+}  */
+
+/* resolving conflects */
+
+#copyright {
+  color: chocolate;
+}
+.copyright {
+  color: gold;
+  font-style: italic;
+}
+.text {
+  color: cadetblue;
+  font-style: italic;
+}
+footer p {
+  color: tomato;
+  text-transform: uppercase;
 }
